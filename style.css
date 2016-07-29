@@ -1,0 +1,7 @@
+#myCanvas{
+    width: 830px;
+    height: 335px;
+    border: solid 1px #ccc;
+    background-image: url('map.png');
+    background-size: cover;
+}
