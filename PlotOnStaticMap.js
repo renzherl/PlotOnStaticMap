@@ -30,4 +30,6 @@ function plot() {
     var p = project(lat, lng, ZOOM);
     ctx.fillStyle = "#FF0000";
     ctx.fillRect(p.X - start.X, p.Y - start.Y, 5, 5);
+    var dot = document.getElementById("dot");
+    ctx.drawImage(dot, p.X - start.X -5, p.Y - start.Y-15, 10, 15);
 }
